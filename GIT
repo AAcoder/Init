@@ -1,13 +1,18 @@
 https://guides.github.com/activities/hello-world/
 
-GIT INIT
-
-echo "# abhi" >> README.md
+…or create a new repository on the command line
+echo "# ChromeExtTypescriptForStarter" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/AAcoder/abhi.git
+git remote add origin https://github.com/AAcoder/ChromeExtTypescriptForStarter.git
 git push -u origin master
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/AAcoder/ChromeExtTypescriptForStarter.git
+git push -u origin master
+
 
 GIT Commit
 
