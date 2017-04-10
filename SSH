@@ -1,0 +1,43 @@
+#Personal Github
+Host github-abhiagg123  //name to identify github account
+HostName github.com  //don't change this
+User git  //username on github
+IdentityFile ~/.ssh/id_rsa  //ssh key created
+
+#Bitbucket
+Host bitbucket-abhiagg123  //name to identify github account
+HostName bitbucket.org  //don't change this
+User git  //username on github
+IdentityFile ~/.ssh/id_rsa  //ssh key created
+
+
+	https://help.github.com/articles/connecting-to-github-with-ssh/
+	
+	Checking for existing SSH keys
+	1. Open GitBash and Type 'ls -a ~/.ssh' --> cant find file
+	
+	Generating a new SSH key
+	2. ssh-keygen -t rsa -C "abhishekaggarwal.in@gmail.com" 
+		Use paraphrase
+	
+	Adding your SSH key to the ssh-agent
+	3.	eval $(ssh-agent -s)
+		ssh-add ~/.ssh/id_rsa
+	
+	4. Copy key from pub file and add in GitHub/Bitbucket etc.
+	5. Testing SSH connection
+		ssh -T git@github.com 
+		Use yes
+	6. Create config file	
+		touch config
+		vim config
+		
+		#Personal
+		Host github-abhiagg123  //name to identify github account
+		HostName github.com  //don't change this
+		User git  //username on github
+		IdentityFile ~/.ssh/id_rsa  //ssh key created
+	
+	7. Create repo in Github or clone and copy SSH repo URL
+		git remote add origin git@github.com:abhiagg123/testing.git
+		git remote add origin git@bitbucket.org:abhiagg123/testing.git
