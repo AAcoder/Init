@@ -19,10 +19,20 @@ git remote add origin https://github.com/AAcoder/ChromeExtTypescriptForStarter.g
 git push -u origin master
 
 
-…or push an existing repository from the command line
-git remote add origin https://github.com/AAcoder/ChromeExtTypescriptForStarter.git
-git push -u origin master
 
+HTTPS
+git remote add origin https://github.com/AAcoder/ChromeExtTypescriptForStarter.git
+
+SSH
+git remote add origin git@github.com:abhiagg123/testing.git
+git remote add origin git@bitbucket.org:abhiagg123/XamarinBasicApp.git
+
+
+Remove remote repo linking
+git remote rm origin
+
+View Remote branch 
+git remote -v
 
 GIT Commit
 
