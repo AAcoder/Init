@@ -1,0 +1,15 @@
+
+1. Create Model file in new MVC app
+
+2. Create MVC and API controller using scafolding providing the model file and new data context.
+
+3. Run the service - it will create tables with name same as model name. 
+........................
+
+Update Table or add new Table will give error. So need migration every time you make changes
+https://msdn.microsoft.com/en-gb/data/jj554735.aspx
+
+Run below 2 commands in Package Manager Console ->  First command is one time and it will generate Migrations folder 
+in your project which will contain Configuration file containing context.
+Enable-Migrations –EnableAutomaticMigrations
+Update-Database
