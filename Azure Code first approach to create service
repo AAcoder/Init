@@ -13,3 +13,9 @@ Run below 2 commands in Package Manager Console ->  First command is one time an
 in your project which will contain Configuration file containing context.
 Enable-Migrations –EnableAutomaticMigrations
 Update-Database
+
+
+If Update-Database gives error
+use Update-Database -Verbose
+and if you are sure that there would be no loss of data, use with force option.
+Update-Database -Force
