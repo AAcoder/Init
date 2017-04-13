@@ -4,6 +4,14 @@
 2. Create MVC and API controller using scafolding providing the model file and new data context.
 
 3. Run the service - it will create tables with name same as model name. 
+
+Add below in YourDbContext.cs
+
+protected override void OnModelCreating(DbModelBuilder modelBuilder)
+{
+    Database.SetInitializer<YourDbContext>(null);
+    base.OnModelCreating(modelBuilder);
+}
 ........................
 
 Update Table or add new Table will give error. So need migration every time you make changes
