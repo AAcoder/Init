@@ -1,8 +1,8 @@
 Very useful
 
-Understand it as layers/frames placed over each other 
+- Understand it as layers/frames placed over each other 
 
-Show one of two frames 
+- Show one of two frames 
 There is search box - clicking on it shows Proactive results and typing on it shows Reactive Results. So both of these placed in framelayouy.
 
 Show caption on image. Caption Layer on top of image layer
