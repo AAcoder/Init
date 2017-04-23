@@ -3,16 +3,16 @@ ViewGroup is collection of Views and ViewGroups.
 
 View - Button, TextView, EditText, ProgressBar
 
-LinearLayout, 
-RelativeLayout, 
-RecyclerView, 
-CoordinatorLayout 
-GridLayout,
-AdapterView<T extends Adapter> -> AbsListView -> (GridView,  (ListView -> ExpandableListView))
-Toolbar,
-TvView, 
-ViewPager
-FrameLayout -> HorizontontalScrollView -> TabLayout
+- LinearLayout, 
+- RelativeLayout, 
+- RecyclerView, 
+- CoordinatorLayout 
+- GridLayout,
+- AdapterView<T extends Adapter> -> AbsListView -> (GridView,  (ListView -> ExpandableListView))
+- Toolbar,
+- TvView, 
+- ViewPager
+- FrameLayout -> HorizontontalScrollView -> TabLayout
                             
 AppWidgetHostView	Provides the glue to show AppWidget views. 
 BaseCardView	A card style layout that responds to certain state changes. 
@@ -39,12 +39,12 @@ TimePicker	A widget for selecting the time of day, in either 24-hour or AM/PM mo
 TitleView	Title view for a leanback fragment. 
 ViewAnimator	Base class for a FrameLayout container that will perform animations when switching between its views. 
 
-AbsoluteLayout
-DrawerLayout
-FragmentBreadCrumbs
-LinearLayoutCompat, 
-PagerTitleStrip, 
-SlidingDrawer, 
-SlidingPaneLayout, 
-SwipeRefreshLayout, 
+- AbsoluteLayout
+- DrawerLayout
+- FragmentBreadCrumbs
+- LinearLayoutCompat, 
+- PagerTitleStrip, 
+- SlidingDrawer, 
+- SlidingPaneLayout, 
+- SwipeRefreshLayout, 
 
