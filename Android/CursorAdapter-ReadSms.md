@@ -1,4 +1,4 @@
-private void fetchInbox() {
+private void fetchInbox() { 
 Uri inboxURI = Uri.parse("content://sms/inbox");
 String[] reqCols = new String[]{"_id", "address", "body"};
 ContentResolver cr = getContentResolver();
