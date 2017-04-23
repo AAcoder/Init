@@ -1,4 +1,4 @@
-SimpleCursorAdapter extends CursorAdapter
-ArrayAdapter extends BaseAdapter
+- SimpleCursorAdapter extends CursorAdapter
+- ArrayAdapter extends BaseAdapter
 
 
