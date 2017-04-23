@@ -1,0 +1,1 @@
+RecyclerView - Unlike in ListView, RV loads only those elements which will be displayed at that moment. On scrolling other elements will be loaded.
