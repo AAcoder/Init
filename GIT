@@ -38,3 +38,11 @@ GIT Commit
 
 git commit -m "first commit"
 
+
+Git 
+lets say u need to add new feature/prototype
+create new branch from existing
+
+once changes completed move all changes from temp branch back to main branch
+$ git push <remote> <local branch name>:<remote branch to push into>
+$ git push origin tempBranch:master
