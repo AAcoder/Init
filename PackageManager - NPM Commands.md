@@ -8,16 +8,24 @@ node -v
 
 #### Install package globally. Global packages are usually for executable commands.
 $ npm install <package name> -g
+
 $ example
+
 $ npm install express -g
+
 $ now we can use express to generate a new app
+
 $ express new app
 
 #### Install package locally. Local packages are for the use of require in the app.
 $ cd /path/to/the/project
+
 $ npm install <package name>
+
 $ example
+
 $ npm install express
+
 $ now you can use `var express = require( 'express' );` in your app
 
 #### List packages
@@ -41,6 +49,7 @@ $ npm update
 Update npm itself
 
 npm install -g npm
+
 #### Downgrade to a specific version
 npm install -g npm@2
 
