@@ -9,7 +9,7 @@ node -v
 $ npm install <package name> -g
 $ example
 $ npm install express -g
-# now we can use express to generate a new app
+$ now we can use express to generate a new app
 $ express new app
 
 #### Install package locally. Local packages are for the use of require in the app.
@@ -17,7 +17,7 @@ $ cd /path/to/the/project
 $ npm install <package name>
 $ example
 $ npm install express
-# now you can use `var express = require( 'express' );` in your app
+$ now you can use `var express = require( 'express' );` in your app
 
 #### List packages
 $ npm ls -g - Global
