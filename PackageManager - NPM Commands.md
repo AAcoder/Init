@@ -2,8 +2,7 @@
 Install node.js . NPM comes along with installation of node.js
 
 #### Check version of npm and node
-npm -v
-
+npm -v  
 node -v
 
 #### Install package globally. Global packages are usually for executable commands.
