@@ -13,7 +13,7 @@ Bitbucket supports:
 
 https://guides.github.com/activities/hello-world/
 
-** Add changes to new repository on the command line **
+####  Add changes to new repository on the command line
 
 echo "# ChromeExtTypescriptForStarter" >> README.md
 git init 
@@ -29,15 +29,15 @@ SSH
 git remote add origin git@github.com:abhiagg123/testing.git
 git remote add origin git@bitbucket.org:abhiagg123/XamarinBasicApp.git
 
-** Remove remote repo linking **
+####  Remove remote repo linking
 
 git remote rm origin
 
-** View Remote branch **
+####  View Remote branch
 
 git remote -v
 
-** GIT Commit **
+####  GIT Commit
 
 git commit -m "first commit"
 
@@ -46,7 +46,7 @@ Git
 lets say u need to add new feature/prototype
 create new branch from existing
 
-** once changes completed move all changes from temp branch back to main branch **
+#### once changes completed move all changes from temp branch back to main branch
 $ git push <remote> <local branch name>:<remote branch to push into>
 $ git push origin tempBranch:master
 
