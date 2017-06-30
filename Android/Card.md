@@ -23,23 +23,3 @@
     </android.support.v7.widget.CardView>
 </LinearLayout>
 
-sefsf
-afaf
-efdsfdf
-ada     
-eafqef
- fewffeef efewfwef
- fwefewfew
- ewfewf
- wdwqdwqd    
- wqdwqd    
-  wqdwqd wqd    
-  awdd
-  qwdqd   
-  wwqfqwf qwwq
-  wqqf  
-  fqfw
- wqwqf  
- wqdwqf  
- wqfqwf  
- qwfwqf
