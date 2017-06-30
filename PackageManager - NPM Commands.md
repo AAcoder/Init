@@ -1,66 +1,66 @@
 Update npm itself
 
 npm install -g npm
-# Downgrade to a specific version
+#### Downgrade to a specific version
 npm install -g npm@2
 Check npm version
 
 npm --version
 Install a package
 
-# Local 
+#### Local 
 npm install package-name
 
-# Local + make an entry in package.json as dependency
+#### Local + make an entry in package.json as dependency
 npm install package-name --save
 
-# Install specific version of a package
+#### Install specific version of a package
 npm install package-name@1.2.3
 
-# Global
+#### Global
 npm install -g package-name
 Un-install a package
 
-# Local
+#### Local
 npm uninstall package-name
 
-# Global
+#### Global
 npm uninstall package-name -g
 Get package info
 
-# Home page
+#### Home page
 npm home package_name
-# Github repo
+#### Github repo
 npm repo package_name
 Check for outdated packages in package.json
 
-# Local
+#### Local
 npm outdated
 
-# Global
+#### Global
 npm outdated -g
 
-# Production only
+#### Production only
 npm outdated --prod
 List installed packages
 
-# Local with tree
+#### Local with tree
 npm ls
 
-# Local - only parent
+#### Local - only parent
 npm ls --depth=0
 
-# Global - only parent
+##### Global - only parent
 npm ls -g --depth=0
 
-# List production packages only
+#### List production packages only
 npm ls --prod
 
 Remove un-used packages from node_modules folder
 
 npm prune
 
-# Remove all devDependencies from node_modules 
+#### Remove all devDependencies from node_modules 
 npm prune --production
 Update all packages listed in package.json
 
@@ -83,7 +83,7 @@ npm version 1.2.3
 Lockdown package versions for production
 
 npm shrinkwrap
-# Also include devDependencies
+#### Also include devDependencies
 npm shrinkwrap --dev
 Run npm in production (will not download devDependencies)
 
@@ -91,7 +91,7 @@ npm install --only=production
 Install a package from github
 
 npm install git://github.com/user-name/package-name.git#v0.1.0
-# OR
+#### OR
 npm install user/repo#v1.0.1
 Install a package from local cache
 
