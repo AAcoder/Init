@@ -15,18 +15,24 @@ https://guides.github.com/activities/hello-world/
 
 ####  Add changes to new repository on the command line
 
-echo "# ChromeExtTypescriptForStarter" >> README.md
 git init 
+
 git add README.md
+
 git commit -m "first commit"
+
 git remote add origin https://github.com/AAcoder/ChromeExtTypescriptForStarter.git
+
 git push -u origin master
 
 HTTPS
+
 git remote add origin https://github.com/AAcoder/ChromeExtTypescriptForStarter.git
 
 SSH
+
 git remote add origin git@github.com:abhiagg123/testing.git
+
 git remote add origin git@bitbucket.org:abhiagg123/XamarinBasicApp.git
 
 ####  Remove remote repo linking
