@@ -3,6 +3,7 @@ Install node.js . NPM comes along with installation of node.js
 
 #### Check version of npm and node
 npm -v
+
 node -v
 
 #### Install package globally. Global packages are usually for executable commands.
@@ -21,12 +22,16 @@ $ now you can use `var express = require( 'express' );` in your app
 
 #### List packages
 $ npm ls -g - Global
+
 $ npm ls -gl - Global with detail
+
 $ npm l
+
 $ npm ls -l - Local wih detail
 
 #### Update global & local packages
 $ npm update -g
+
 $ npm update
 
 #### Using `package.json` to manage your app packages
@@ -38,9 +43,11 @@ Update npm itself
 npm install -g npm
 #### Downgrade to a specific version
 npm install -g npm@2
+
 Check npm version
 
 npm --version
+
 Install a package
 
 #### Local 
@@ -54,6 +61,7 @@ npm install package-name@1.2.3
 
 #### Global
 npm install -g package-name
+
 Un-install a package
 
 #### Local
@@ -61,12 +69,15 @@ npm uninstall package-name
 
 #### Global
 npm uninstall package-name -g
+
 Get package info
 
 #### Home page
 npm home package_name
+
 #### Github repo
 npm repo package_name
+
 Check for outdated packages in package.json
 
 #### Local
@@ -77,6 +88,7 @@ npm outdated -g
 
 #### Production only
 npm outdated --prod
+
 List installed packages
 
 #### Local with tree
@@ -97,32 +109,41 @@ npm prune
 
 #### Remove all devDependencies from node_modules 
 npm prune --production
+
 Update all packages listed in package.json
 
 npm update
+
 Update a single package
 
 npm update package_name
+
 Remove duplicate packages from node_modules
 
 npm dedupe
+
 List packages in cache
 
 npm cache ls
+
 Clean npm cache
 
 npm cache clean -f
+
 💡 Bump version number in package.json and create a git tag automatically
 
 npm version 1.2.3
+
 Lockdown package versions for production
 
 npm shrinkwrap
 #### Also include devDependencies
 npm shrinkwrap --dev
+
 Run npm in production (will not download devDependencies)
 
 npm install --only=production
+
 Install a package from github
 
 npm install git://github.com/user-name/package-name.git#v0.1.0
