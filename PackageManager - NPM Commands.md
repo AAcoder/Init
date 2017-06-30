@@ -30,8 +30,8 @@ $ npm update -g
 $ npm update
 
 #### Using `package.json` to manage your app packages
-With a package.json file in the root of your app dir, you don’t need to manually install every package.
-JUst add package in package.jon and run $ npm install -l
+- With a package.json file in the root of your app dir, you don’t need to manually install every package.
+- JUst add package in package.jon and run $ npm install -l
 
 Update npm itself
 
