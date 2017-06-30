@@ -1,3 +1,38 @@
+
+Install node.js . NPM comes along with installation of node.js
+
+#### Check version of npm and node
+npm -v
+node -v
+
+#### Install package globally. Global packages are usually for executable commands.
+$ npm install <package name> -g
+$ example
+$ npm install express -g
+# now we can use express to generate a new app
+$ express new app
+
+#### Install package locally. Local packages are for the use of require in the app.
+$ cd /path/to/the/project
+$ npm install <package name>
+$ example
+$ npm install express
+# now you can use `var express = require( 'express' );` in your app
+
+#### List packages
+$ npm ls -g - Global
+$ npm ls -gl - Global with detail
+$ npm l
+$ npm ls -l - Local wih detail
+
+#### Update global & local packages
+$ npm update -g
+$ npm update
+
+#### Using `package.json` to manage your app packages
+With a package.json file in the root of your app dir, you don’t need to manually install every package.
+JUst add package in package.jon and run $ npm install -l
+
 Update npm itself
 
 npm install -g npm
