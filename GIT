@@ -12,11 +12,11 @@ https://guides.github.com/activities/hello-world/
 
 …or create a new repository on the command line
 echo "# ChromeExtTypescriptForStarter" >> README.md
-git init
+** git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/AAcoder/ChromeExtTypescriptForStarter.git
-git push -u origin master
+git push -u origin master **
 
 
 
@@ -46,3 +46,23 @@ create new branch from existing
 once changes completed move all changes from temp branch back to main branch
 $ git push <remote> <local branch name>:<remote branch to push into>
 $ git push origin tempBranch:master
+
+......................................................................................
+Git tip: Tired of entering password again and again ?
+
+Run this command to remember your password:
+git config --global credential.helper 'cache --timeout 28800'
+Above command will tell git to cache your password for 8 hours.
+
+How to make git forget this password ?
+If you want to switch to another github account then u can run this command
+git credential-cache exit
+Above command will flush any stored password from cache.
+
+Reference: http://git-scm.com/docs/git-credential-cache
+
+Windows User ?
+git config --global credential.helper wincred
+
+.............................................................................
+
