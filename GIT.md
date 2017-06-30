@@ -1,10 +1,13 @@
 GitHub supports:
 - The import of Git, SVN, HG, TFS.
+
 GitLab supports: 
 -The import of Git.
 -Easy import from other services GitHub, Bitbucket, Google Code, Fogbugz.
+
 Coding supports: 
 - The import of Git, SVN, HG.
+
 Bitbucket supports:
 - The import of Git, CodePlex, Google Code, HG, SourceForge, SVN.
 
