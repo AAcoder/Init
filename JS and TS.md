@@ -7,6 +7,9 @@ jquery - JS library
 
 JS - https://javascript30.com/
 
+https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer#learn-javascript
+
+
 
 
 
