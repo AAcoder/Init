@@ -35,23 +35,23 @@ https://code.visualstudio.com/docs/editor/tasks
 
 6. To avoid selecting task, under Tasks tab, configure new defaut task -> which will create **tasks.json**
 
-Tasks.json-
-{
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "type": "typescript",
-            "tsconfig": "tsconfig.json",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        }
-    ]
-}
-
+Tasks.json-  
+{  
+    // See https://go.microsoft.com/fwlink/?LinkId=733558  
+    // for the documentation about the tasks.json format  
+    "version": "2.0.0",  
+    "tasks": [  
+        {  
+            "type": "typescript",  
+            "tsconfig": "tsconfig.json",  
+            "group": {  
+                "kind": "build",  
+                "isDefault": true  
+            }  
+        }  
+    ]  
+}  
+  
 
 
 
