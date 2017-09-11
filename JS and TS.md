@@ -57,9 +57,11 @@ Tasks.json-
     const ac = cc.querySelectorAll('dd a');
     #### querySelector, querySelectorAll, getElementsByClassName, getElementById, getElementsByTagName
 
-### 2. Manipulating value for css property.
+### 2. Manipulating dom elements
     document.getElementById("abc").style.color = "blue";
     document.getElementById("abc").style.backgroundColor = "blue";
+    document.getElementById("abc").innerText = "hello";'
+    document.getElementById("abc").innerHTML = "<b>hello</b>";
 
 ### 3. Ajax/ Fetching the data over internet
     const cities = [];
