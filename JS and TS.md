@@ -54,9 +54,9 @@ Tasks.json-
 
 ### 1. Accessing the dom elements
     const cc = document.querySelector('.mf-section-1');
-    const ac = cc.querySelectorAll('dd a')
-
-    querySelector, querySelectorAll, getElementsByClassName, getElementById, getElementsByTagName
+    const ac = cc.querySelectorAll('dd a');
+  .  
+    ### querySelector, querySelectorAll, getElementsByClassName, getElementById, getElementsByTagName
 
 ### 2. Manipulating value for css property.
     document.getElementById("abc").style.color = "blue";
