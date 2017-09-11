@@ -55,8 +55,7 @@ Tasks.json-
 ### 1. Accessing the dom elements
     const cc = document.querySelector('.mf-section-1');
     const ac = cc.querySelectorAll('dd a');
-  .  
-    ### querySelector, querySelectorAll, getElementsByClassName, getElementById, getElementsByTagName
+    #### querySelector, querySelectorAll, getElementsByClassName, getElementById, getElementsByTagName
 
 ### 2. Manipulating value for css property.
     document.getElementById("abc").style.color = "blue";
@@ -87,12 +86,12 @@ Tasks.json-
 
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live?
-    const totalYears = inventors.reduce((total, inventor) => {
+    const totalYears = inventors.**reduce**((total, inventor) => {
       return total + (inventor.passed - inventor.year);
     }, 0);
 
     // 5. Sort the inventors by years lived
-    const oldest = inventors.sort(function(a, b) {
+    const oldest = inventors.**sort**(function(a, b) {
       const lastInventor = a.passed - a.year;
       const nextInventor = b.passed - b.year;
       return lastInventor > nextInventor ? -1 : 1;
@@ -131,16 +130,16 @@ Tasks.json-
     // Array.prototype.some() // is at least one person 19 or older?
     // Array.prototype.every() // is everyone 19 or older?
 
-	const isAdult = people.some(person => ((new Date()).getFullYear()) - person.year >= 19);
-	const allAdults = people.every(person => ((new Date()).getFullYear()) - person.year >= 19);
+	const isAdult = people.**some**(person => ((new Date()).getFullYear()) - person.year >= 19);
+	const allAdults = people.**every**(person => ((new Date()).getFullYear()) - person.year >= 19);
 
     10. // Array.prototype.find()
     // Find is like filter, but instead returns just the one you are looking for
     // find the comment with the ID of 823423
 
-    const comment = comments.find(comment => comment.id === 823423);
+    const comment = comments.**find**(comment => comment.id === 823423);
 	
-    11. // Array.prototype.findIndex()
+    11. // Array.prototype.**findIndex**()
     // Find the comment with this ID
     // delete the comment with the ID of 823423
     const index = comments.findIndex(comment => comment.id === 823423);
