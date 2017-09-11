@@ -52,33 +52,30 @@ Tasks.json-
     ]  
 }  
 
-###1. Accessing the dom elements
-
+### 1. Accessing the dom elements
     const cc = document.querySelector('.mf-section-1');
     const ac = cc.querySelectorAll('dd a')
 
-    querySelector, querySelectorAll, getElementsByClassName, getElementById, getElementsByTagName**
+    querySelector, querySelectorAll, getElementsByClassName, getElementById, getElementsByTagName
 
-###2. Manipulating value for css property.
+### 2. Manipulating value for css property.
     document.getElementById("abc").style.color = "blue";
     document.getElementById("abc").style.backgroundColor = "blue";
 
-3. Fetching the data over internet
+### 3. Ajax/ Fetching the data over internet
     const cities = [];
     fetch('https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json').
     then(x=> x.json()).
     then(data => cities.push(...data))
-
-4. Ajax
-
-5. Array Object processing
+    
+### 4. Array Object processing
 
 	const inventors = [
       { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 }, ................. ]
 	  
 	// Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
-    const fifteen = inventors.filter(inventor => (inventor.year >= 1500 && inventor.year < 1600));
+    const fifteen = inventors.filter(inventor => (inventor.year >= 1500 && inventor.year < 1600));
 
     // Array.prototype.map()
     // 2. Give us an array of the inventor first and last names
@@ -150,17 +147,4 @@ Tasks.json-
 	
 	
 Typescript
-
-
-
-
-
-
-
-
-
-
-
-
-
 
