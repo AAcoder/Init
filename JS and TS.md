@@ -51,7 +51,105 @@ Tasks.json-
         }  
     ]  
 }  
-  
+
+###1. Accessing the dom elements
+
+    const cc = document.querySelector('.mf-section-1');
+    const ac = cc.querySelectorAll('dd a')
+
+    querySelector, querySelectorAll, getElementsByClassName, getElementById, getElementsByTagName**
+
+###2. Manipulating value for css property.
+    document.getElementById("abc").style.color = "blue";
+    document.getElementById("abc").style.backgroundColor = "blue";
+
+3. Fetching the data over internet
+    const cities = [];
+    fetch('https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json').
+    then(x=> x.json()).
+    then(data => cities.push(...data))
+
+4. Ajax
+
+5. Array Object processing
+
+	const inventors = [
+      { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 }, ................. ]
+	  
+	// Array.prototype.filter()
+    // 1. Filter the list of inventors for those who were born in the 1500's
+    const fifteen = inventors.filter(inventor => (inventor.year >= 1500 && inventor.year < 1600));
+
+    // Array.prototype.map()
+    // 2. Give us an array of the inventor first and last names
+    const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
+
+    // Array.prototype.sort()
+    // 3. Sort the inventors by birthdate, oldest to youngest
+    const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
+
+    // Array.prototype.reduce()
+    // 4. How many years did all the inventors live?
+    const totalYears = inventors.reduce((total, inventor) => {
+      return total + (inventor.passed - inventor.year);
+    }, 0);
+
+    // 5. Sort the inventors by years lived
+    const oldest = inventors.sort(function(a, b) {
+      const lastInventor = a.passed - a.year;
+      const nextInventor = b.passed - b.year;
+      return lastInventor > nextInventor ? -1 : 1;
+    });
+
+    // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+    // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+
+    // const category = document.querySelector('.mw-category');
+    // const links = Array.from(category.querySelectorAll('a'));
+    // const de = links
+    //             .map(link => link.textContent)
+    //             .filter(streetName => streetName.includes('de'));
+
+    // 7. sort Exercise
+    // Sort the people alphabetically by last name
+    const alpha = people.sort((lastOne, nextOne) => {
+      const [aLast, aFirst] = lastOne.split(', ');
+      const [bLast, bFirst] = nextOne.split(', ');
+      return aLast > bLast ? 1 : -1;
+    });
+
+    // 8. Reduce Exercise
+    // Sum up the instances of each of these
+    const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck', 'pogostick'];
+
+    const transportation = data.reduce(function(obj, item) {
+      if (!obj[item]) {
+        obj[item] = 0;
+      }
+      obj[item]++;
+      return obj;
+    }, {});
+
+	9.  // Some and Every Checks
+    // Array.prototype.some() // is at least one person 19 or older?
+    // Array.prototype.every() // is everyone 19 or older?
+
+	const isAdult = people.some(person => ((new Date()).getFullYear()) - person.year >= 19);
+	const allAdults = people.every(person => ((new Date()).getFullYear()) - person.year >= 19);
+
+    10. // Array.prototype.find()
+    // Find is like filter, but instead returns just the one you are looking for
+    // find the comment with the ID of 823423
+
+    const comment = comments.find(comment => comment.id === 823423);
+	
+    11. // Array.prototype.findIndex()
+    // Find the comment with this ID
+    // delete the comment with the ID of 823423
+    const index = comments.findIndex(comment => comment.id === 823423);
+	
+	
+Typescript
 
 
 
