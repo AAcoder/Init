@@ -52,6 +52,16 @@ Tasks.json-
     ]  
 }  
 
+### Editors
+JS/CSS/HTML
+http://liveweave.com/ -> Free, Live and save
+https://jsfiddle.net/ -> Not live but save
+Codepen.io - Paid, social online platform to build website.
+
+CS/HTML
+http://scratchpad.io/extra-small-motion-135 - Live, but no save
+
+
 ### 1. Accessing the dom elements
     const cc = document.querySelector('.mf-section-1');
     const ac = cc.querySelectorAll('dd a');
