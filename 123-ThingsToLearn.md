@@ -9,4 +9,4 @@ Xamarin
 CSS - Bootstrap  
 Entitiy Framework  
 Azure Search  
-Razor/  
+Razor/React
