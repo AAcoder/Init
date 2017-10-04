@@ -1,11 +1,11 @@
-Design patterns
+#### Design patterns
 
 
-Mobile App Development  
+#### Mobile App Development  
 React-Native  
 Xamarin  
 
-Web Development  
+#### Web Development  
 CSS - Bootstrap  
 Entitiy Framework  
 Azure Search  
