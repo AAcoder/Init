@@ -1,0 +1,2 @@
+modules are loaded asynchronously - that means modules are loaded in parallel, 
+as opposed to blocking the execution by waiting for a load to finish.
