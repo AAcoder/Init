@@ -38,7 +38,7 @@ public class FetchProactiveDataAsync extends AsyncTask<Void, Void, Void> {
 
 Scheduling 
 
-final Handler newsHandler = new Handler();
+    final Handler newsHandler = new Handler();
         newsHandler.postDelayed(new Runnable() {
             public void run() {
                 Log.d(TAG, "Fetching news");
